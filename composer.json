@@ -1,5 +1,5 @@
 {
-    "name": "picocms/pico-composer",
+    "name": "phrozenbyte/pico-composer",
     "type": "project",
     "description": "Pico is a flat file CMS, this means there is no administration backend and database to deal with. You simply create .md files in the \"content\" folder and that becomes a page.",
     "keywords": [ "pico", "picocms", "pico-cms", "simple", "flat-file", "cms", "content-management", "website", "markdown-to-html", "php", "markdown", "yaml", "twig", "composer-project" ],
@@ -24,6 +24,24 @@
         "docs": "http://picocms.org/docs",
         "issues": "https://github.com/picocms/Pico/issues",
         "source": "https://github.com/picocms/Pico"
+    },
+    "repositories": {
+        "pico": {
+            "type": "vcs",
+            "url": "https://github.com/PhrozenByte/Pico"
+        },
+        "pico-theme": {
+            "type": "vcs",
+            "url": "https://github.com/PhrozenByte/pico-theme"
+        },
+        "pico-deprecated": {
+            "type": "vcs",
+            "url": "https://github.com/PhrozenByte/pico-deprecated"
+        },
+        "composer-installer": {
+            "type": "vcs",
+            "url": "https://github.com/PhrozenByte/composer-installer"
+        }
     },
     "require": {
         "picocms/pico": "^2.1",
